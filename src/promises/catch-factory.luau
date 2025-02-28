@@ -1,9 +1,5 @@
 --!optimize 2
 
-local TS = require(script.Parent.Parent.include.RuntimeLib)
-local Log = TS.import(script, script.Parent.Parent, "include", "node_modules", "@rbxts", "rbxts-sleitnick-log", "out").default
-
-local log = Log.new()
 local function concat(...: unknown)
 	local length = select("#", ...)
 	if length == 0 then
@@ -33,7 +29,7 @@ local function concat(...: unknown)
 end
 
 local function catchFactory(functionName: string, logFunction: nil | (...any) -> ())
-	local trueLogFunction: (...any) -> () = if logFunction then logFunction else log.Warning
+	local trueLogFunction: (...any) -> () = logFunction or warn
 	return function(...)
 		trueLogFunction(string.format("Error in function %*: %*", functionName, concat(...)))
 	end
