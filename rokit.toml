@@ -1,0 +1,5 @@
+[tools]
+darklua = "seaofvoices/darklua@0.16.0"
+lunar = "corecii/lunar@0.1.0"          # forked on arm laptop
+lune = "lune-org/lune@0.8.9"           # forked on arm laptop
+rojo = "rojo-rbx/rojo@7.4.4"

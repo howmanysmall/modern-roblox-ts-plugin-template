@@ -1,0 +1,14 @@
+{
+	"name": "roblox-ts-plugin-serve",
+	"globIgnorePaths": ["**/package.json", "**/tsconfig.json"],
+	"tree": {
+		"$className": "DataModel",
+		"ServerStorage": {
+			"$className": "ServerStorage",
+			"Plugin": {
+				"$className": "Folder",
+				"Main": { "$path": "./default.project.json" }
+			}
+		}
+	}
+}

@@ -1,0 +1,90 @@
+{
+	"folders": [
+		{
+			"path": ".",
+		},
+	],
+
+	"settings": {
+		"editor.fontLigatures": "'ss02', 'zero'",
+		"files.defaultLanguage": "typescript",
+		"github.copilot.advanced": {
+			"inlineSuggestCount": 20,
+			"length": 500,
+			"listCount": 10,
+		},
+
+		"luau-lsp.require.mode": "relativeToFile",
+		"luau-lsp.types.definitionFiles": [],
+
+		"roblox-ts.colorPicker.enabled": true,
+		"roblox-ts.command.parameters": [
+			"-w",
+			"--optimizedLoops",
+		],
+
+		"typescript.inlayHints.enumMemberValues.enabled": true,
+		"typescript.tsdk": "node_modules/typescript/lib",
+		"emmet.excludeLanguages": [
+			"markdown",
+			"typescript",
+			"lua",
+			"luau",
+			"typescriptreact",
+		],
+
+		"roblox-ts.boundary.mode": "remove",
+		"luau-lsp.sourcemap.autogenerate": true,
+		"luau-lsp.sourcemap.rojoProjectFile": "test.project.json",
+	},
+
+	"extensions": {
+		"recommendations": [
+			"biomejs.biome",
+			"dbaeumer.vscode-eslint",
+			"mikestead.dotenv",
+			"visualstudioexptteam.vscodeintellicode",
+			"ghmcadams.lintlens",
+			"idered.npm",
+			"yoavbls.pretty-ts-errors",
+			"roblox-ts.vscode-roblox-ts",
+			"mattpocock.ts-error-translator",
+			"johnnymorganz.luau-lsp",
+			"codeque.codeque",
+			"kampfkarren.roblox-lua-autofills",
+			"kampfkarren.selene-vscode",
+			"pflannery.vscode-versionlens",
+			"softwaredotcom.swdc-vscode",
+
+			"ue.alphabetical-sorter",
+			"aaron-bond.better-comments",
+			"ultram4rine.vscode-choosealicense",
+			"streetsidesoftware.code-spell-checker",
+			"codeium.codeium",
+			"vizzuhq.code-viz-stat",
+			"adam-bender.commit-message-editor",
+			"continue.continue",
+			"fabiospampinato.vscode-diff",
+			"usernamehw.errorlens",
+			"tamasfe.even-better-toml",
+			"vsls-contrib.gistfs",
+			"mhutchie.git-graph",
+			"donjayamanne.githistory",
+			"github.vscode-pull-request-github",
+			"github.remotehub",
+			"codezombiech.gitignore",
+			"eamodio.gitlens",
+			"oderwat.indent-rainbow",
+			"aykutsarac.jsoncrack-vscode",
+			"ruiquelhas.vscode-lowercase",
+			"pkief.material-icon-theme",
+			"christian-kohler.path-intellisense",
+			"ms-vscode.remote-repositories",
+			"rioj7.vscode-remove-comments",
+			"nicollasr.vscode-streamdeck",
+			"jackytsu.text-transformer",
+			"gruntfuggly.todo-tree",
+			"ruiquelhas.vscode-uppercase",
+		],
+	},
+}
