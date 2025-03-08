@@ -4,9 +4,11 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"clean": "bunx rimraf out dist flamework.build",
-		"darklua": "darklua process out dist --verbose",
+		"build-plugin": "rojo build --output plugin.rbxm -v release.project.json",
+		"build-release": "bun run clean && bun install && bun run build && bun run darklua && bun run build-plugin",
 		"build": "bunx rbxtsc",
+		"clean": "bunx rimraf out dist flamework.build",
+		"darklua": "darklua process out dist --verbose -c .darklua.jsonc",
 		"serve": "rojo serve serve.project.json",
 		"watch": "bunx rbxtsc -w"
 	},
